@@ -1,0 +1,272 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+#work {
+    height: 1400px;
+}
+#about {
+    height: 650px;
+}
+#contact {
+    height: 400px;
+}
+#bottom {
+    height: 150px;
+    color: #fafafa;
+    font-size: 12px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+    overflow: auto;
+}
+.third-width {
+    width: 400px;
+    float: left;
+    overflow: auto;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/desk-unsplash.png');
+    background-size: cover;
+}
+header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #3c4260;
+    text-align: center;
+    font-weight: 600;
+    float: right;
+    clear: both;
+    padding-right: 100px;
+}
+nav {
+    float: right;
+    padding: 50px 25px 0 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3c4260;
+    padding-left: 50px;
+}
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 68px;
+    letter-spacing: 1px;
+    line-height: 74px;
+    color: #3c4260;
+    text-align: right;
+    font-weight: 600;
+    float: right;
+    padding-top: 375px;
+    padding-right: 50px;
+    margin-bottom: -5px;
+}
+header h2 span {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #fafafa;
+    text-align: center;
+}
+#work h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    text-transform: uppercase;
+    color: #424242;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#work .half-width {
+    padding: 0 0 20px 0;
+}
+#work img {
+    border: 10px solid #f2d3d0;
+    width: 550px;
+    float: left;
+    clear: both;
+    margin-bottom: 50px;
+}
+#work h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 300px;
+    vertical-align: middle;
+    line-height: 24px;
+    margin-bottom: -30px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+}
+#work h5 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    clear: both;
+    padding-right: 15px;
+    vertical-align: middle;
+    line-height: 24px;
+    box-sizing: border-box;
+    color: #2b2b2b;
+}
+#work p {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    vertical-align: middle;
+    color: #2b2b2b;
+    padding-right: 45px;
+}
+#work p span {
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#work a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #fcf4f3;
+}
+#about h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    text-transform: uppercase;
+    color: #424242;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#about h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 50px;
+    line-height: 24px;
+    margin-top: 0;
+    color: #2b2b2b;
+}
+#about p {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    color: #2b2b2b;
+}
+#about img {
+    border: 11px solid white;
+    width: 550px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background: url('../img/brick-unsplash.png');
+    background-size: cover;
+    height: 400px;
+    border-top: 10px solid #fafafa;
+    border-bottom: 10px solid #fafafa;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+#contact h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    text-transform: uppercase;
+    color: #424242;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#contact h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+}
+#contact p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #2b2b2b;
+}
+#contact a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+#contact #email {
+    padding: 0 10px 0 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/***** FOOTER *****/
+
+#bottom {
+    background: #3c4260;
+}
+#bottom p {
+    color: white;
+    text-align: left;
+    font-size: 11px;
+    padding-top: 15px;
+}
+#bottom h6 {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 30px;
+}
+#bottom a {
+    color: white;
+    text-decoration: none;
+}
